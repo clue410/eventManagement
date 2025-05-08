@@ -12,7 +12,7 @@ def index() -> rx.Component:
     return rx.container(
         rx.color_mode.button(position="top-right"),
         rx.vstack(
-            rx.heading("Event Management Application", size="9"),
+            rx.heading("Event Management Application TEST!", size="9"),
             rx.text("Welcome",size="5"),
             rx.link(rx.button("login", size="4"), href="/form"),
             spacing="5",
